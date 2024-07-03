@@ -1,0 +1,99 @@
+.booking-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.booking-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.booking-room-image {
+  width: 100%;
+  height: auto;
+}
+
+.booking-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.booking-details-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.booking-details-container select {
+  text-align: center;
+}
+
+#booking-room-dropdown {
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.booking-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.booking-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  flex-grow: 1;
+  max-width: 150px;
+}
+
+.booking-buttons button:hover {
+  background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+  .booking-container {
+    flex-direction: row;
+  }
+  .booking-image-container,
+  .booking-details-container {
+    width: 50%;
+  }
+  .booking-details-container {
+    padding: 40px;
+  }
+  .booking-buttons button {
+    margin: 10px;
+    flex-grow: 0;
+  }
+}
+
+/*# sourceMappingURL=ufobooking.css.map */
